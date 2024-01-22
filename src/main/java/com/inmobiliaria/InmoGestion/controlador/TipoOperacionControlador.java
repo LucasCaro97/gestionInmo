@@ -14,6 +14,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/tipoOperacion")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class TipoOperacionControlador {
 
     private final TipoOperacionServicio tipoOperacionServicio;

@@ -1,10 +1,7 @@
 package com.inmobiliaria.InmoGestion.controlador;
 
 
-import com.inmobiliaria.InmoGestion.modelo.Categoria;
 import com.inmobiliaria.InmoGestion.modelo.Servicios;
-import com.inmobiliaria.InmoGestion.repositorio.ServiciosRepositorio;
-import com.inmobiliaria.InmoGestion.servicio.CategoriaServicio;
 import com.inmobiliaria.InmoGestion.servicio.ServiciosServicio;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -18,6 +15,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/servicios")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class ServiciosControlador {
 
     private final ServiciosServicio serviciosServicio;

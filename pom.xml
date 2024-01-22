@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inmobiliaria</groupId>
-	<artifactId>InmoGestion</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>inmogestion</artifactId>
+	<version>0.0.1</version>
 	<name>InmoGestion</name>
 	<description>Aplicacion Web para gestionar productos de inmobiliaria</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

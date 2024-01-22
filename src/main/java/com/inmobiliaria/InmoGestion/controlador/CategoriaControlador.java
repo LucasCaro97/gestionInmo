@@ -1,10 +1,8 @@
 package com.inmobiliaria.InmoGestion.controlador;
 
-import com.inmobiliaria.InmoGestion.modelo.Caracteristicas;
 import com.inmobiliaria.InmoGestion.modelo.Categoria;
 import com.inmobiliaria.InmoGestion.servicio.CategoriaServicio;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +14,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/categoria")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class CategoriaControlador {
 
         private final CategoriaServicio categoriaServicio;
